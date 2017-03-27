@@ -1,0 +1,65 @@
+# CSCI 4229 - Assignment 3
+
+Stephen Clark
+06/19/2016
+
+CSCI 4229: Final Project
+Skatepark with Animated Run
+
+This is a replica of the skatepark used in the Street League Skateboarding 2013 - Munich event.  There are two modes:
+
+1. Free Camera Mode
+	- Allows the user to move the camera around freely
+2. Demo Mode
+	- An animated loop that flows through the skatepark as if a skateboarder were holding a camera.  The camera can be rotated but the path is fixed.
+
+
+## Compile and Run  
+`make clean` - Removes executable  
+`make` - Compiles lorenz_attractor.c  
+`./` - Runs executable
+
+
+## Commands  
+`ESC` - Exit
+
+`0` - Zooms Out to View Whole Park
+
+`r` - Toggle the animated run
+`R` - Toggle and reset the animated run
+
+`Arrows` - Rotate Camera
+
+`w` - Move Foward
+`a` - Strafe Left
+`s` - Move Back
+`d` - Strafe Right
+
+`h` - Lower Camera
+`H` - Raise Camera
+
+`l` - Pasuses Light
+
+`1` - Decrease Ambient Level
+`2` - Increase Ambient Level
+
+`3` - Decrease Diffuse Level
+`4` - Increase Diffuse Level
+
+`5` - Decrease Specular Level
+`6` - Increase Specular Level
+
+`7` - Decrease Emission Level
+`8` - Increase Emission Level
+
+`9` - Decrease Shininess Level
+`0` - Increase Shininess Level
+
+
+## Time Spent  
+This project took me about 40 hours to complete
+
+
+## Things to Consider
+- I think the most important thing to pay attention to is the accuracy of the park.  I spent several hours freeze framing videos and looking at pictures to get proper measurements in order to draw the blue print for the park to scale. Here is a [link to an image of the actual park](http://californiaskateparks.com/wp-content/uploads/2015/03/xgamesmunich.jpg). If you press `0` the camera will zoom to approximately the same place where the picture was taken.
+- The demo, while hard coded, still took several hours to get working properly.  I had to determine exactly where to start lowering or raising the camera and by how much.
