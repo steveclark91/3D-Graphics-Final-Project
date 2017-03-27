@@ -60,6 +60,6 @@ This is a replica of the skatepark used in the Street League Skateboarding 2013 
 This project took me about 40 hours to complete
 
 
-## Things to Consider
-- I think the most important thing to pay attention to is the accuracy of the park.  I spent several hours freeze framing videos and looking at pictures to get proper measurements in order to draw the blue print for the park to scale. Here is a [link to an image of the actual park](http://californiaskateparks.com/wp-content/uploads/2015/03/xgamesmunich.jpg). If you press `0` the camera will zoom to approximately the same place where the picture was taken.
-- The demo, while hard coded, still took several hours to get working properly.  I had to determine exactly where to start lowering or raising the camera and by how much.
+## Comparison
+![Alt text](Actual_Park.jpg "Actual Park")
+![Alt text](My_Replica.png "My Replica")
